@@ -4,6 +4,8 @@
 #           *Please Subscribe   ===   
 
 
+sudo dpkg --add-architecture i386; sudo apt update; sudo apt install bsdmainutils bzip2 jq lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 netcat pigz steamcmd unzip
+
 
 wget -O installer.tar.gz https://github.com/easy-wi/installer/archive/3.3.tar.gz
 tar zxf installer.tar.gz && mv ./installer-*/easy-wi_install.sh ./
